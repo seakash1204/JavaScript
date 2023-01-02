@@ -1,0 +1,9 @@
+git branch <branchName>
+    Ex: git branch login => Create New Branch
+
+git branch --list => To list all the branches available
+
+git checkout <branchName>
+    Ex: git checkout login => Navigate to that particular branch
+
+pull request to merge from login to main/master branch
