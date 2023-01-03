@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Input Type</title>
+</head>
+<body>
+    <input id="name" type="text" placeholder="Enter Name" value="Akki Singh">
+    <button onclick="catchValue()">Click Me</button>
+    <h1 id="username"></h1>
+</body>
+
+<!-- JavaScript -->
+<script>
+    function catchValue(){
+        var head = document.getElementById("name");
+        console.log(head.value);
+        document.getElementById("username").textContent = head.value;
+    }
+</script>
+</html>

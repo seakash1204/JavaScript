@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>DOM Intro</title>
+    
+</head>
+<body>
+    <h2 id="head"> <i>Masai</i> School</h2>
+    <button id="like" onclick="likeme()">Like</button>
+    
+</body>
+
+<!-- JavaScript -->
+<script>
+    console.log(document.title);
+    function likeme() {
+        confirm("You liked me");
+    }
+    console.log(document.getElementById("like"))
+    
+    // to select tags
+    console.log(document.getElementById("head").innerText)
+    console.log(document.getElementById("head").textContent)
+    console.log(document.getElementById("head").innerHTML)
+</script>
+
+</html>
