@@ -1,0 +1,10 @@
+git init                =>  initializes a new git repository
+git add .               =>  Add files to the staging area
+git reset               =>  Undo the changes to the local files, restore the last comment
+git diff                =>  Displays the difference between files in two commits or between a commit and your current repository
+git status              =>  It is used to check the state of the staging area and the working directory
+git commit -m "msg"     =>  This command is used to commit files(locally) on the repository
+git log                 =>  It is used to view the entire commit history
+git clone [url]         =>  Used to download existing code from a remote repository
+git branch              =>  Used to list all the local branch on the machine
+git branch <branchname> =>  Used to create a new branch locally
