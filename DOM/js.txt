@@ -1,0 +1,2 @@
+Local Storage is used to store the data locally and these data
+should not be critical
